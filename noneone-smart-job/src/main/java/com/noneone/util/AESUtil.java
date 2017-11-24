@@ -135,8 +135,6 @@ import javax.crypto.spec.SecretKeySpec;
                     strReturn = strReturn + tmp;
                 }   
             }
-            System.out.println("buqizhihou de changdu=="+new String(strReturn));
-//          return new String(strReturn);
             return strReturn;
         }
         public static String getSKey() {
